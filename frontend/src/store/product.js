@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-const back = import.meta.env.VITE_BACKEND_URL || "https://basic-mern-app-1nt2.vercel.app/";
+const back = import.meta.env.VITE_BACKEND_URL || "https://basic-mern-app-1nt2.vercel.app";
 export const useProductStore = create((set) => ({
 	products: [],
 	setProducts: (products) => set({ products }),
