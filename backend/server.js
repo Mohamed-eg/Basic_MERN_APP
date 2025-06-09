@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5050;
 
 const __dirname = path.resolve();
 
-const allowedOrigins = ['http://localhost:5173', 'https://your-production-domain.com'];
+const allowedOrigins = ['http://localhost:5173', 'https://basic-mern-app-coral.vercel.app/'];
 app.use(
   cors({
     origin: function (origin, callback) {
